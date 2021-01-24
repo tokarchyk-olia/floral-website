@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Oksana Savka Designer</title>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/progress.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <!-- desktop -->
+            <nav class="menu d-none d-lg-flex justify-content-center">
+                <div class="header_logo me-3">
+                    <h3>Oksana Savka</h3>
+                    <p>designer</p>
+                </div>
+                <div class="d-flex mx-5">
+                    <a class="mx-2" href="#about_us">About Us</a>
+                    <a class="mx-2" href="#bloomy_solutions">Bloomy Solutions</a>
+                    <a class="mx-2" href="#why_us">Why Us</a>
+                    <a class="mx-2" href="#compositions">Compositions</a>
+                    <a class="mx-2" href="#contacts">Contacts</a>
+                </div>
+                <div class="d-flex ms-4">
+                    <a href="#order" class="header_button">Request a quote</a>
+                    <a class="p-1 mx-2" href="https://www.facebook.com/oksana.savka.58">
+                        <img class="contact_icon" src="img/facebook-logo.svg" alt="Facebook">
+                    </a>
+                    <a class="p-1" href="https://www.instagram.com/">
+                        <img class="contact_icon" src="img/instagram.svg" alt="Instagram">
+                    </a>
+                </div>
+            </nav>
+            <!-- mobile size -->
+            <!-- burger button -->
+            <nav class="d-block d-lg-none navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+            <!-- navbar -->
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <h5 class="text-white h4">Collapsed content</h5>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="banner">
+                <h1>Splendid Flowers for Any Occasion
+            </h1>
+                <div id="carousel_compositions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/slider_1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider_2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider_3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel_compositions" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel_compositions" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div id="bloomy_solutions">
+                <h2 class="block_title">Bloomy Solutions
+            </h2>
+                <img class="icon" src="img/illustration.svg" alt="Bloomy Solutions">
+                <p class="subtitle">We put together unique bouquets and make splendid decorations for any venues and events.
+            </p>
+                <div class="what_we_create">
+                    <article>
+                        <img src="img/hancr_bouquets.jpg" class="media_overlay" alt="Handcrafted Bouquets">
+                        <h3>Handcrafted Bouquets
+                    </h3>
+                        <p class="text">We don't just sell flowers - we create and deliver unique bouquets from fresh
+                        flowers from the best
+                        local suppliers.
+                    </p>
+                    </article>
+                    <article>
+                        <img src="img/special_events.png" class="media_overlay" alt="Special Events">
+                        <h3>Special Events
+                    </h3>
+                        <p class="text">We arrange flowers for private and corporate celebrations. Flower arches, photo
+                        zones and more.
+                    </p>
+                    </article>
+                    <article>
+                        <img src="img/venue_dressing.jpg" class="media_overlay" alt="Venue Dressing">
+                        <h3>Venue Dressing
+                    </h3>
+                        <p class="text">Details always matter. We provide full-range floristic services for HoReCa venues,
+                        offices and
+                        public areas.
+                    </p>
+                    </article>
+                </div>
+                <button>Place an order</button>
+            </div>
+            <div class="wrapping-tutor">
+                <h1>Custom Video Player</h1>
+                <!-- <video src="https://www.youtube.com/embed/eCc6A6FUDns" id="video" class="screen w-100" poster="img/poster.png"></video> -->
+                <div class="controls w-100">
+                    <button class="btn" id="play">
+                        <i class="fa fa-play fa-2x"></i>
+                    </button>
+                    <button class="btn" id="stop">
+                        <i class="fa fa-stop fa-2x"></i>
+                    </button>
+                    <input type="range" id="progress" class="progress" min="0" max="100" step="0.1" value="0"/>
+                    <span class="timestamp" id="timestamp">00:00</span>
+                </div>
+            </div>
+            <div id="about_us">
+                <h2 class="block_title">We Are Tender Flowers
+            </h2>
+                <img class="icon" src="img/illustration.svg" alt="Bloomy Solutions">
+                <article class="about_us">
+                    <img src="img/tender_flowers.png" alt="Tender Flowers">
+                    <p class="text">
+                        Inspired by natural flowers and foliage, we create unique and elegant floral concepts with a
+                    just-picked
+                    feel. We provide a modern approach to everyday flower design.
+                    <br>We offer handcrafted bouquets, flower jars, venue dressing, corporate gifts, etc. Our florists
+                    are
+                    always happy to implement any of your ideas and create new, fresh compositions.
+                    
+                    
+                    </p>
+                </article>
+            </div>
+            <article id="why_us">
+                <h2 class="block_title w-100 text-center">Why Us
+            </h2>
+                <!-- <img class="icon" src="img/illustration.svg" alt="Bloomy Solutions"> -->
+                <p class="subtitle">In our cozy and small studio, unique bouquets and compositions are born. We strive to be
+                one of the best
+                floral design studios across New York. We serve any events and venues, work with orders of any size and
+                always welcome your personal ideas and preferences.
+            </p>
+                <div class="row mx-3 mx-md-0">
+                    <div class="col-12 col-md-6">
+                        <div class="selected_flowers">
+                            <div class="imgBx">
+                                <img src="img/bouquet.svg" alt="bouqet">
+                            </div>
+                            <div class="content">
+                                <h3>Selected flowers
+                        </h3>
+                                <p class="text">We work with the best flower suppliers in Ukraine. You can be sure that the ordered
+                            bouquets or flower
+                            installations will stay fresh for a long time.
+                        </p>
+                            </div>
+                        </div>
+                        <div class="selected_flowers">
+                            <div class="imgBx">
+                                <img src="img/gift.svg" alt="gift">
+                            </div>
+                            <div class="content">
+                                <h3>Same-day delivery
+                        </h3>
+                                <p class="text">Sending flowers on any occasions is easy. We have the whole team of couriers, so
+                            your order
+                            will be
+                            delivered on time. Just specify the address, date and time.
+                        </p>
+                            </div>
+                        </div>
+                        <div class="selected_flowers">
+                            <div class="imgBx">
+                                <img src="img/art.svg" alt="art">
+                            </div>
+                            <div class="content">
+                                <h3>Floristry as art
+                        </h3>
+                                <p class="text">We don't sell two identical bouquets. All flower arrangements are hand-picked by our
+                            florists. We
+                            individually work on each order and create unique compositions.
+                        </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="why_us_img">
+                            <img src="img/why_us.png" alt="Florist" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div id="compositions">
+                <h2 class="block_title">Seasonal Compositions
+            </h2>
+                <img src="img/bloomy_sol.svg" alt="Bloomy Solutions">
+                <div class="product_list">
+                    <article>
+                        <img src="img/aurora.png" class="seasonal_composition" alt="Aurora">
+                        <h3>Aurora
+                    </h3>
+                        <p class="price">from 30$
+                    </p>
+                        <button>Order now</button>
+                    </article>
+                    <article>
+                        <img src="img/blush.png" class="seasonal_composition" alt="Blush">
+                        <h3>Blush
+                    </h3>
+                        <p class="price">from 100$
+                    </p>
+                        <button>Order now</button>
+                    </article>
+                    <article>
+                        <img src="img/eternal_love.png" class="seasonal_composition" alt="Eternal Love">
+                        <h3>Eternal Love
+                    </h3>
+                        <p class="price">from 50$
+                    </p>
+                        <button>Order now</button>
+                    </article>
+                    <article>
+                        <img src="img/dusty_pinks.png" class="seasonal_composition" alt="Dusty Pinks">
+                        <h3>Dusty Pinks
+                    </h3>
+                        <p class="price">from 20$
+                    </p>
+                        <button>Order now</button>
+                    </article>
+                    <article>
+                        <img src="img/lily_mix.png" class="seasonal_composition" alt="Lily mix">
+                        <h3>Lily mix
+                    </h3>
+                        <p class="price">from 30$
+                    </p>
+                        <button>Order now</button>
+                    </article>
+                    <article>
+                        <img src="img/lavender_shades.png" class="seasonal_composition" alt="Lavender Shades">
+                        <h3>Lavender Shades
+                    </h3>
+                        <p class="price">from 40$
+                    </p>
+                        <button>Order now</button>
+                    </article>
+                </div>
+            </div>
+            <div class="write_us">
+                <div class="write_us_text">
+                    <h2 class="block_title">Favour your beloved with unique bouquets!
+                </h2>
+                    <img src="img/bloomy_sol.svg" alt="Bloomy Solutions">
+                    <p class="subtitle">Write us or call us to bring together a very special bouquet for any occasion. Our florists are happy to implement any extraordinary ideas and deliver the bouquet on time.
+                </p>
+                </div>
+                <div class="write_us_btn">
+                    <img src="img/rose.png" alt="Rose">
+                    <button>Send Flowers
+        </button>
+                </div>
+            </div>
+            <div class="services">
+                <h2 class="block_title">Additional Services
+            </h2>
+                <img src="img/bloomy_sol.svg" alt="Bloomy Solutions">
+                <p class="subtitle">Floristry is not only about bouquets. We provide bespoke services for any needs.
+            </p>
+                <div class="row">
+                    <article class="col-12 col-md-6 row my-2 mx-md-0">
+                        <div class="col-7">
+                            <img src="img/wedding_flowers.jpg" class="art-flower-pic" alt="Wedding Flowers">
+                        </div>
+                        <div class="col-5">
+                            <h3>Wedding Flowers</h3>
+                            <hr class="short-line">
+                            <p class="text">This day should be perfect! We take care of all issues related to the bride’s bouquet,
+                            buttonholes,
+                            flower photo zones, arrangements on tables, arches and so on. We work closely with the wedding
+                            organizer and adhere to the chosen style.
+                        </p>
+                            <button>Order Service</button>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6 row">
+                        <div class="col-7">
+                            <img src="img/subscriptions.jpg" class="art-flower-pic" alt="Subscriptions">
+                        </div>
+                        <div class="col-5">
+                            <h3>Subscriptions
+                    </h3>
+                            <hr class="short-line">
+                            <p class="text">We deliver fresh flowers to establishments and offices throughout Lviv. You no longer
+                        need to think
+                        about what's there in the vases and pots. Every few days we bring new, fresh compositions, always
+                        maintaining the beauty in your premises.
+                    </p>
+                            <button class="rounded-left">Order Service</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div id="order">
+                <form method="POST" name="order" class="order_form">
+                    <h2 class="block_title">Want to order flowers?
+                </h2>
+                    <p class="subtitle">Complete the form below, and we will contact you to bring together the perfect
+                    composition!
+                </p>
+                    <img src="img/vase.png" alt="Vase">
+                    <br>
+                    <input type="text" placeholder="Name" required>
+                    <br>
+                    <input type="text" placeholder="Phone Number" required>
+                    <br>
+                    <input type="text" placeholder="E-mail" required>
+                    <br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div id="contacts">
+                <h2 class="block_title">Contacts
+            </h2>
+                <p class="subtitle">Feel free to contact us for any business, media, or personal inquiries:
+            </p>
+                <img class="contact_icon" src="img/phone-call.svg" alt="phone call">
+                <p class="contact_info">+380(93)439 81 29
+            </p>
+                <img class="contact_icon" src="img/telegram.svg" alt="Mail">
+                <p class="contact_info">oksana-savka@email.com
+            </p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="js/index.js" type="module"></script>
+    </body>
+</html>

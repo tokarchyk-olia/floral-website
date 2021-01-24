@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30">
+	<defs>
+		<image width="30" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeAQMAAAAB/jzhAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAAxJREFUeJxjYBiMAAAAlgABszUSjQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffa5c0 } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+	<g id="Layer">
+		<g id="Layer">
+			<path id="Layer" fill-rule="evenodd" class="shp0" d="M29.99 15.19C29.97 23.39 23.33 30.02 15.15 30C6.97 29.98 0.35 23.32 0.37 15.12C0.39 6.93 7.04 0.29 15.22 0.31C23.4 0.33 30.01 7 29.99 15.19ZM20.85 7.89L20.86 4.27L17.87 4.26C14.92 4.25 12.89 6.06 12.88 9.37L12.88 12.23L9.54 12.22L9.53 16.1L12.87 16.11L12.85 26.06L16.84 26.07L16.86 16.12L20.69 16.13L20.7 12.25L16.87 12.24L16.88 9.77C16.88 8.64 17.19 7.88 18.8 7.88L20.85 7.89L20.85 7.89Z" />
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+		<g id="Layer">
+		</g>
+	</g>
+</svg>
